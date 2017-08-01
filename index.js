@@ -1,3 +1,4 @@
+require('dotenv').config();
 let express = require( 'express' );
 let twitter = require( 'twitter' );
 let st = require( 'st' );
